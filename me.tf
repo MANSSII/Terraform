@@ -1,14 +1,10 @@
 provider "aws" {
   alias      = "mumbai"
-  access_key = "AKIAQ6ENJVORX6K253UM"
-  secret_key = "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"
   region     = "ap-south-1"
 }
 
 provider "aws" {
   alias      = "virginia"
-  access_key = "AKIAQ6ENJVORX6K253UM"
-  secret_key = "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"
   region     = "us-east-1"
 }
 
